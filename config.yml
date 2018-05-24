@@ -1,4 +1,5 @@
-baseURL: http://localhost:8080/
-languageCode: ru-ru
-title: АКЕРС-СТОМ
+baseURL: "http://localhost:8080/"
+languageCode: "ru"
+title: "АКЕРС-СТОМ"
 description: "медицинское оборудование и комплектующие"
+copyright: "Разработал Daniyar Baitursynov"

@@ -1,7 +1,7 @@
 ---
-title: "Contact"
+title: "Контакты"
 type: "menu"
 layout: "contact"
 ---
 
-Contact page
+

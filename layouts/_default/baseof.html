@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="{{ .Site.LanguageCode }}">
   <head>
     {{ partial "meta.html" . }}
+    <meta name="description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ if .IsHome }}{{ .Site.Description }}{{ end }}{{ end }}">
     <title>{{ .Site.Title }}{{ if ne .Title .Site.Title }} - {{ .Title }}{{ end }}</title>
     {{ partial "css.html" . }}
   </head>
   <body>
     {{ partial "navbar" . }}
     {{ block "main" . }}
-
     {{ end }}
-
     {{ partial "javascript.html" . }}
   </body>
 </html>
