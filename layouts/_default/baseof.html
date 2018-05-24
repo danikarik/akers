@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     {{ partial "meta.html" . }}
-    <title>{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }}{{ if ne .Title .Site.Title }} - {{ .Title }}{{ end }}</title>
     {{ partial "css.html" . }}
   </head>
   <body>
