@@ -1,73 +1,11 @@
-<section>
+<section class="flush-with-above">
     <div class="container">
-        <div class="row justify-content-center text-center section-intro">
-            <div class="col-12 col-md-9 col-lg-8">
-                <span class="title-decorative">Welcome Home</span>
-                <h2 class="display-4">Greatly simplified workflow</h2>
-                <span class="lead">An opportunity to introduce the major benefits of your product and set the scene for what's to come</span>
-            </div>
-            <!--end of col-->
-        </div>
-        <!--end of row-->
-
-        {{ range first 5 (where .Data.Pages "Type" "post") }}
-            {{ partial "post.html" . }}
-        {{ end }}
-
-        
-        <div class="row justify-content-around">
-
-            <div class="col-12 col-lg-6 mb-4">
-                <div class="tab-content">
-                    <div class="tab-pane fade show active" id="content-1" role="tabpanel" arialabelledby="content-1-tab">
-                        <img alt="Image" class="img-fluid w-100" src="{{ "img/graphic-bike.svg" | absURL }}"/>
-                    </div>
-                    <div class="tab-pane fade" id="content-2" role="tabpanel" arialabelledby="content-2-tab">
-                        <img alt="Image" class="img-fluid w-100" src="{{ "img/graphic-phone-actions.svg" | absURL }}"/>
-                    </div>
-                    <div class="tab-pane fade" id="content-3" role="tabpanel" arialabelledby="content-3-tab">
-                        <img alt="Image" class="img-fluid w-100" src="{{ "img/graphic-imac-interface.svg" | absURL }}"/>
-                    </div>
-                </div>
-            </div>
-            <!--end of col-->
-            <div class="col-lg-5 col-md-8">
-                <ul class="nav nav-cards" role="tablist">
-                    <li>
-                        <div class="card active" data-toggle="tab" href="#content-1" role="tab" aria-controls="content-1" aria-selected="true">
-                            <div class="card-body">
-                                <h5>Armed and Fabulous</h5>
-                                <p>
-                                    A self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" data-toggle="tab" href="#content-2" role="tab" aria-controls="content-2" aria-selected="false">
-                            <div class="card-body">
-                                <h5>Content First</h5>
-                                <p>
-                                    A paragraph, from the Greek paragraphos is a self-contained unit of a discourse in writing dealing with a particular point or idea.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card" data-toggle="tab" href="#content-3" role="tab" aria-controls="content-3" aria-selected="false">
-                            <div class="card-body">
-                                <h5>All in one place</h5>
-                                <p>
-                                    A self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <!--end of col-->
-        </div>
-        <!--end of row-->
+        <ul class="row mb-3 feature-list feature-list-sm">
+            {{ range first 6 (where .Data.Pages "Type" "post") }}
+                {{ partial "post.html" . }}
+            {{ end }}
+        </ul>
+        <!--end of list-->
     </div>
     <!--end of container-->
 </section>

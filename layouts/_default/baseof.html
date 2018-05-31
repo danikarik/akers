@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
   <head>
     {{ partial "meta.html" . }}
-    <meta name="description" content="{{ if .IsPage }}{{ .Summary }}{{ else }}{{ if .IsHome }}{{ .Site.Description }}{{ end }}{{ end }}">
+    <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
     <title>{{ .Site.Title }}{{ if ne .Title .Site.Title }} - {{ .Title }}{{ end }}</title>
     {{ partial "css.html" . }}
   </head>
