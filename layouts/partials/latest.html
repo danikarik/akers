@@ -1,6 +1,6 @@
-{{ $titleDecorative := .Site.Params.sections.latest.title }}
-{{ $displayHeader := .Site.Params.sections.latest.header }}
-{{ $lead := .Site.Params.sections.latest.lead }}
+{{ $titleDecorative := .Site.Params.sections.blog.title }}
+{{ $displayHeader := .Site.Params.sections.blog.header }}
+{{ $lead := .Site.Params.sections.blog.lead }}
 
 <section class="flush-with-above">
     <div class="container">
@@ -10,15 +10,11 @@
                 <h2 class="display-4">{{ $displayHeader }}</h2>
                 <span class="lead">{{ $lead }}</span>
             </div>
-            <!--end of col-->
         </div>
         <ul class="row mb-3 feature-list feature-list-sm">
-            {{ range first 6 (where .Data.Pages "Type" "blog") }}
+            {{ range first 6 (where .Data.Pages.ByDate.Reverse "Type" "blog") }}
                 {{ partial "post.html" . }}
             {{ end }}
         </ul>
-        <!--end of list-->
     </div>
-    <!--end of container-->
 </section>
-<!--end of section-->

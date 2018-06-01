@@ -1,0 +1,32 @@
+
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<div class="row justify-content-center mb-5">
+    <div class="col-auto">
+        <h3>Похожие новости</h3>
+    </div>
+</div>
+<ul class="feature-list feature-list-sm row">
+    {{ range . }}
+    <li class="col-12 col-md-6 col-lg-4">
+        <div class="card card-lg">
+            <div class="card-body">
+                <a href="{{ .RelPermalink }}">
+                    <h4 class="card-title mb-3">{{ .Title }}</h4>
+                </a>
+                <p class="card-text">{{ .Description }}</p>
+            </div>
+            <div class="card-footer card-footer-borderless">
+                <div class="media blog-post-author">
+                    <img alt="{{ .Title }}" src="{{ "img/avatar-doctor.png" | absURL }}" class="avatar avatar-xs" />
+                    <div class="media-body">
+                        <small>{{ .Params.author }}</small>
+                        <small>{{ .Date.Format "02.01.2006" }}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

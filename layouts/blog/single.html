@@ -1,3 +1,70 @@
 {{ define "main" }}
-<p>{{ .Content }}</p>
+
+<div class="main-container">
+    <nav aria-label="breadcrumb" role="navigation" class="bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="/">Главная</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="/blog">Новости</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            {{ .Title }}
+                        </li>
+                    </ol>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </nav>
+    <section class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <h1 class="display-4">{{ .Title }}</h1>
+                    <span class="lead">{{ .Description }}</span>
+                    <div class="media blog-post-author">
+                        <img alt="Image" src="{{ "img/avatar-doctor.png" | absURL }}" class="avatar avatar-sm mr-3" />
+                        <div class="media-body">
+                            <span class="h6">{{ .Params.author }}</span>
+                            <span class="text-small">{{ .Date.Format "02.01.2006" }}</span>
+                        </div>
+                    </div>
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <!--end of section-->
+    <section>
+        <article class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    {{ .Content }}
+                </div>
+                <!--end of col-->
+            </div>
+            <!--end of row-->
+        </article>
+        <!--end of container-->
+    </section>
+    <!--end of section-->
+    <section class="bg-white">
+        <div class="container">
+            {{ partial "related.html" . }}
+            <!--end of row-->
+        </div>
+        <!--end of container-->
+    </section>
+    <!--end of section-->
+</div>
+
 {{ end }}
