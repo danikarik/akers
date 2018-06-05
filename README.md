@@ -1,0 +1,2 @@
+# akers.kz - landing page
+
