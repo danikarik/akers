@@ -1,7 +1,104 @@
 {{ define "main" }}
 
+{{ $titleDecorative := .Site.Params.sections.contact.title }}
+{{ $lead := .Site.Params.sections.contact.lead }}
+{{ $phone := .Site.Params.sections.contact.phone }}
+{{ $mobile := .Site.Params.sections.contact.mobile }}
+{{ $fax := .Site.Params.sections.contact.fax }}
+{{ $email := .Site.Params.sections.contact.email }}
+{{ $address := .Site.Params.sections.contact.address }}
+
 <div class="main-container">
-    <p>{{ .Content }}</p>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center text-center section-intro">
+                <div class="col-12 col-md-9 col-lg-8">
+                    <span class="title-decorative">{{ $titleDecorative }}</span>
+                    <h2 class="display-4"><a href="tel:{{ $phone }}">{{ $phone }}</a></h2>
+                    <span class="lead">{{ $lead }}</span>
+
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-md-5 col-7 mb-4">
+                    <div class="tab-content">
+                        <div class="tab-pane fade" id="content-1" role="tabpanel" arialabelledby="content-1-tab">
+                            <img alt="{{ $phone }}" class="img-fluid w-100" src="{{ "img/graphic-phone-actions.svg" | absURL }}" />
+                        </div>
+                        <div class="tab-pane fade" id="content-2" role="tabpanel" arialabelledby="content-2-tab">
+                            <img alt="{{ $email }}" class="img-fluid w-100" src="{{ "img/graphic-envelope.svg" | absURL }}" />
+                        </div>
+                        <div class="tab-pane fade show active" id="content-3" role="tabpanel" arialabelledby="content-3-tab">
+                                <a class="dg-widget-link" href="http://2gis.kz/almaty/firm/9429940000900157/center/76.9320845603943,43.26179992014879/zoom/16?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap">Посмотреть на карте Алматы</a><div class="dg-widget-link"><a href="http://2gis.kz/almaty/center/76.932095,43.261639/zoom/16/routeTab/rsType/bus/to/76.932095,43.261639╎АКЕРС-СТОМ, торгово-сервисная компания?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route">Найти проезд до АКЕРС-СТОМ, торгово-сервисная компания</a></div><script charset="utf-8" src="https://widgets.2gis.com/js/DGWidgetLoader.js"></script><script charset="utf-8">new DGWidgetLoader({"width":205,"height":215,"borderColor":"#a3a3a3","pos":{"lat":43.26179992014879,"lon":76.9320845603943,"zoom":16},"opt":{"city":"almaty"},"org":[{"id":"9429940000900157"}]});</script><noscript style="color:#c00;font-size:16px;font-weight:bold;">Виджет карты использует JavaScript. Включите его в настройках вашего браузера.</noscript>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-8 mb-4">
+                    <ul class="nav nav-cards" role="tablist">
+                        <li>
+                            <div class="card" data-toggle="tab" href="#content-1" role="tab" aria-controls="content-1" aria-selected="false">
+                                <div class="card-body">
+                                    <div class="media align-items-center">
+                                        <div class="step-circle mr-4">1</div>
+                                        <div class="media-body">
+                                            <h5>Телефон</h5>
+                                            <ul class="list-unstyled">
+                                                <li class="row">
+                                                    <span class="font-weight-bold col">Рабочий:</span>
+                                                    <a class="col" href="tel:{{ $fax }}">{{ $phone }}</a>
+                                                </li>
+                                                <li class="row">
+                                                    <span class="font-weight-bold col">Мобильный:</span>
+                                                    <a class="col" href="tel:{{ $fax }}">{{ $mobile }}</a>
+                                                </li>
+                                                <li class="row">
+                                                    <span class="font-weight-bold col">Факс:</span>
+                                                    <a class="col" href="tel:{{ $fax }}">{{ $fax }}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card" data-toggle="tab" href="#content-2" role="tab" aria-controls="content-2" aria-selected="false">
+                                <div class="card-body">
+                                    <div class="media align-items-center">
+                                        <div class="step-circle mr-4">2</div>
+                                        <div class="media-body">
+                                            <h5>Электронная почта</h5>
+                                            <ul class="list-unstyled">
+                                                <li class="row">
+                                                    <span class="font-weight-bold col">Почтовый адрес:</span>
+                                                    <a class="col" href="mailto:{{ $email }}">{{ $email }}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card active" data-toggle="tab" href="#content-3" role="tab" aria-controls="content-3" aria-selected="true">
+                                <div class="card-body">
+                                    <div class="media align-items-center">
+                                        <div class="step-circle mr-4">3</div>
+                                        <div class="media-body">
+                                            <h5>Адрес</h5>
+                                            <span class="font-weight-bold">
+                                                {{ $address }}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 {{ end }}

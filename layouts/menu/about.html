@@ -1,7 +1,24 @@
 {{ define "main" }}
 
 <div class="main-container">
-    <p>{{ .Content }}</p>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-12 col-md-10 col-lg-9">
+                    <h1 class="display-4">О Компании</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="flush-with-above">
+        <article class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    {{ .Content }}
+                </div>
+            </div>
+        </article>
+    </section>
 </div>
 
 {{ end }}
