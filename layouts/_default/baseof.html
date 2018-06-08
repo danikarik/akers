@@ -4,7 +4,7 @@
     {{ partial "meta.html" . }}
     <meta name="author" content="{{ .Site.Params.author }}">
     <meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
-    <title>{{ .Site.Title }}{{ if ne .Title .Site.Title }} - {{ .Title }}{{ end }}</title>
+    <title>{{ .Site.Title }}{{ if ne .Title .Site.Title }} - {{ .Title }}{{ else }} - {{ .Site.Params.description }}{{ end }}</title>
     {{ partial "css.html" . }}
   </head>
   <body>

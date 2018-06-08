@@ -3,6 +3,7 @@ title: "Product 3"
 date: 2018-06-01T16:12:37+06:00
 description: "bla-bla"
 author: "admin"
+image: "img/photo-man-book.jpg"
 draft: false
 tags:
   - "new"

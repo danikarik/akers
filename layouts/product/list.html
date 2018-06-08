@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<div class="main-container">
+    <section>
+        <div class="container">
+            <ul class="row mb-3 feature-list feature-list-sm">
+            {{ range .Paginator.Pages }}
+                <li class="col-12 col-md-6 col-lg-4">
+                    <div class="card card-lg">
+                        <a href="{{ .Permalink }}">
+                            <img alt="{{ .Title }}" src="{{ .Params.image | absURL }}" class="card-img-top" />
+                        </a>
+                        <div class="card-body">
+                            <a href="{{ .Permalink }}">
+                                <h4 class="card-title mb-3">{{ .Title }}</h4>
+                            </a>
+                            <p class="card-text">{{ .Description }}</p>
+                        </div>
+                    </div>
+                </li>
+            {{ end }}
+            </ul>
+            {{ partial "pagination.html" . }}
+        </div>
+    </section>
+</div>
+
+{{ end }}

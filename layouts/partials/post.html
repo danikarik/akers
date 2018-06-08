@@ -1,5 +1,8 @@
 <li class="col-12 col-md-6 col-lg-4">
     <div class="card card-lg">
+        <a href="{{ .Permalink }}">
+            <img alt="{{ .Title }}" src="{{ .Params.image | absURL }}" class="card-img-top" />
+        </a>
         <div class="card-body">
             <a href="{{ .Permalink }}">
                 <h4 class="card-title mb-3">{{ .Title }}</h4>
@@ -8,7 +11,7 @@
         </div>
         <div class="card-footer card-footer-borderless">
             <div class="media blog-post-author">
-                <img alt="{{ .Title }}" src="img/avatar-doctor.png" class="avatar avatar-xs" />
+                <img alt="{{ .Title }}" src="img/user.svg" class="avatar avatar-xs" />
                 <div class="media-body">
                     <small>{{ .Params.author }}</small>
                     <small>{{ .Date.Format "02.01.2006" }}</small>

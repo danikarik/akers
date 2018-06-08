@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<div class="main-container">
+    <nav aria-label="breadcrumb" role="navigation" class="bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="{{ .Site.BaseURL }}">Главная</a>
+                        </li>
+                        <li class="breadcrumb-item">
+                            <a href="{{ "product" | absURL }}">Продукция</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            {{ .Title }}
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    <h1 class="display-4">{{ .Title }}</h1>
+                    <span class="lead">{{ .Description }}</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <article class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-lg-7">
+                    {{ .Content }}
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
+
+{{ end }}

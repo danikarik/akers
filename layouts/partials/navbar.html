@@ -20,28 +20,17 @@
                             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown">Продукция</a>
                             <div class="dropdown-menu" aria-labelledby="pagesDropdown">
 
-                                <a class="dropdown-item" href="pages-landing.html">
-                                    <span class="h6 mb-0">Landing Pages</span>
-                                    <p class="text-small text-muted">Showcase your product in style</p>
-                                </a>
-
-                                <div class="dropdown-divider"></div>
-
-
-                                <a class="dropdown-item" href="pages-app.html">
-                                    <span class="h6 mb-0">App Pages</span>
-                                    <p class="text-small text-muted">Build detailed, functional web apps</p>
-                                </a>
-
-                                <div class="dropdown-divider"></div>
-
-
-                                <a class="dropdown-item" href="pages-inner.html">
-                                    <span class="h6 mb-0">Inner Pages</span>
-                                    <p class="text-small text-muted">Complete your online presence</p>
-                                </a>
-
-
+                                {{ $products := (where .Site.Pages.ByTitle "Type" "product") }}
+                                {{ $len := (len $products) }}
+                                {{ range $i, $p := where $products  "Title" "ne" "Products" }}
+                                    <a class="dropdown-item" href="{{ .Permalink }}">
+                                        <span class="h6 mb-0">{{ $p.Title }}</span>
+                                        <p class="text-small text-muted">{{ $p.Description }}</p>
+                                    </a>                                        
+                                    {{ if ne (add $i 2) $len }}
+                                        <div class="dropdown-divider"></div>
+                                    {{ end }}
+                                {{ end }}
                             </div>
                         </li>
                         <li class="nav-item dropdown">
