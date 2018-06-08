@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://danikarik.gitlab.io/akers/"
 languageCode: "ru"
 title: "АКЕРС-СТОМ"
 copyright: "@SYSTEMD"
