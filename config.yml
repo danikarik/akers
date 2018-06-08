@@ -1,10 +1,10 @@
 baseURL: "https://danikarik.gitlab.io/akers/"
 languageCode: "ru"
 title: "АКЕРС-СТОМ"
-copyright: "2005-2018 ТОО АКЕРС-СТОМ"
+copyright: "ТОО \"АКЕРС-СТОМ\""
 paginate: 6
 params:
-  author: "Daniyar Baitursynov"
+  author: "SYSTEMD"
   description: "Медицинское оборудование и комплектующие"
   sections:
     hero:
