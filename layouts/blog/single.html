@@ -7,10 +7,10 @@
                 <div class="col">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item">
-                            <a href="/">Главная</a>
+                            <a href="{{ .Site.BaseURL }}">Главная</a>
                         </li>
                         <li class="breadcrumb-item">
-                            <a href="/blog">Новости</a>
+                            <a href="{{ "blog" | absURL }}">Новости</a>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">
                             {{ .Title }}
