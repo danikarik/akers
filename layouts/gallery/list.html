@@ -3,11 +3,11 @@
     <section>
         <div class="container">
             <ul class="row mb-3 feature-list feature-list-sm">
-            {{ range .Paginator.Pages }}
+                {{ range .Paginator.Pages }}
                 <li class="col-12 col-md-6 col-lg-4">
                     <div class="card card-lg">
                         <a href="{{ .Permalink }}">
-                            <img alt="{{ .Title }}" src="{{ .Params.image | absURL }}" class="card-img-top" />
+                            <img alt="{{ .Title }}" src="{{ .Params.cover | absURL }}" class="card-img-top" />
                         </a>
                         <div class="card-body d-flex flex-column">
                             <a href="{{ .Permalink }}">
@@ -17,7 +17,7 @@
                         </div>
                     </div>
                 </li>
-            {{ end }}
+                {{ end }}
             </ul>
             {{ partial "pagination.html" . }}
         </div>

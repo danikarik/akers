@@ -19,7 +19,6 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown">Продукция</a>
                             <div class="dropdown-menu" aria-labelledby="pagesDropdown">
-
                                 {{ $products := (where .Site.Pages.ByTitle "Type" "product") }}
                                 {{ $len := (len $products) }}
                                 {{ range $i, $p := where $products  "Title" "ne" "Products" }}
@@ -33,15 +32,8 @@
                                 {{ end }}
                             </div>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="componentsDropdown" role="button" data-toggle="dropdown">Галерея</a>
-                            <div class="dropdown-menu" aria-labelledby="componentsDropdown">
-
-                                <a class="dropdown-item" href="components-bootstrap.html">Bootstrap</a>
-
-                                <a class="dropdown-item" href="components-wingman.html">Wingman</a>
-
-                            </div>
+                        <li class="nav-item">
+                            <a href="{{ "gallery" | absURL }}" class="nav-link">Галерея</a>
                         </li>
                     </ul>
 
