@@ -11,14 +11,14 @@ stages:
 test:
   stage: test
   script:
-  - hugo
+  - hugo --baseURL=https://danikarik.gitlab.io/akers/
   except:
   - master
 
 pages:
   stage: deploy
   script:
-  - hugo
+  - hugo --baseURL=https://danikarik.gitlab.io/akers/
   artifacts:
     paths:
     - public
