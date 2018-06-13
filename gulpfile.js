@@ -113,6 +113,16 @@ const paths = {
               from: "node_modules/zoom-vanilla.js/dist",
               to: "src/scss/custom/components/plugins"
             },
+            {
+              files: "baguetteBox.min.js",
+              from: "node_modules/baguettebox.js/dist",
+              to: "static/js"
+            },
+            {
+              files: "baguetteBox.min.css",
+              from: "node_modules/baguettebox.js/dist",
+              to: "src/scss/custom/components/plugins"
+            }
           ]
       };
 

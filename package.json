@@ -11,13 +11,14 @@
   "license": "",
   "homepage": "https://akers.kz/index.html",
   "dependencies": {
+    "baguettebox.js": "^1.10.0",
     "bootstrap": "^4.0.0",
-    "jquery": "^3.2.1",
-    "smartwizard": "^4.2.2",
     "flickity": "^2.0.10",
+    "jquery": "^3.2.1",
     "popper.js": "^1.12.9",
     "prismjs": "^1.9.0",
     "scrollmonitor": "^1.2.4",
+    "smartwizard": "^4.2.2",
     "smooth-scroll": "^12.1.5",
     "socicon": "^3.0.5",
     "zoom-vanilla.js": "^2.0.5"
