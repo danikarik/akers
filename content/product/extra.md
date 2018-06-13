@@ -1,7 +1,7 @@
 ---
-title: "Дополнительное Оборудование"
-date: 2018-05-24T16:12:37+06:00
-description: "Дополнительное Оборудование"
-image: "img/photo-man-book.jpg"
-draft: false
+title: "Дополнительное оборудование"
+date: 2018-05-24 16:12:37 +0600
+description: "Дополнительное оборудование"
+image: img/photo-man-book.jpg
+
 ---
