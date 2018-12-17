@@ -23,3 +23,67 @@ params:
       fax: "+7 (727) 279 84 46"
       email: "info@akers.kz"
       address: "пр. СЕЙФУЛЛИНА 434, угол ул. ЖИБЕК ЖОЛЫ, оф. 105"
+menu:
+  main:
+  - identifier: about
+    name: О нас
+    title: О нас
+    url: /about/
+    weight: -110
+  - identifier: blog
+    name: Новости и акции
+    title: Новости и акции
+    url: /blog/
+    weight: -100
+  - identifier: product
+    name: Продукция
+    title: Продукция
+    url: /product/
+    weight: -100
+  - identifier: extra
+    name: Дополнительное оборудование
+    title: Дополнительное оборудование
+    url: /product/extra/
+    parent: product
+    weight: -100
+  - identifier: lab
+    name: Зуботехническая Лаборатория
+    title: Зуботехническая Лаборатория
+    url: /product/lab/
+    parent: product
+    weight: -100
+  - identifier: compressor
+    name: Компрессоры
+    title: Компрессоры
+    url: /product/compressor/
+    parent: product
+    weight: -100
+  - identifier: clothes
+    name: Медицинская одежда
+    title: Медицинская одежда
+    url: /product/clothes/
+    parent: product
+    weight: -100
+  - identifier: tipsandmicromotors
+    name: Наконечники, Микромоторы
+    title: Наконечники, Микромоторы
+    url: /product/tipsandmicromotors/
+    parent: product
+    weight: -100
+  - identifier: stom
+    name: Стоматологические установки
+    title: Стоматологические установки
+    url: /product/stom/
+    parent: product
+    weight: -100
+  - identifier: richardwolf
+    name: Эндоскопическое Оборудование
+    title: Эндоскопическое Оборудование
+    url: /product/richardwolf/
+    parent: product
+    weight: -100
+  - identifier: gallery
+    name: Галерея
+    title: Галерея
+    url: /gallery/
+    weight: -80

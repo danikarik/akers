@@ -34,7 +34,8 @@ const paths = {
                 "./src/js/bootstrap/tooltip.js",
                 "./src/js/bootstrap/popover.js",
                 "./src/js/bootstrap/scrollspy.js",
-                "./src/js/bootstrap/tab.js"
+                "./src/js/bootstrap/tab.js",
+                "./src/js/bootstrap/user.js"
               ],
               mrare: "src/js/mrare/**/*.js",
           },
@@ -182,9 +183,7 @@ gulp.task('bootstrapjs', function(){
 
 gulp.task('mrarejs', function(){
     return gulp.src(paths.js.mrare)
-        .pipe(eslint())
         .pipe(eslint.format())
-        .pipe(eslint.failAfterError())
         .pipe(concat('theme.js'))
         .pipe(replace(/^(export|import).*/gm, ''))
         .pipe(babel({
