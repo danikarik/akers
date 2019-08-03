@@ -15,14 +15,35 @@
                             {{ if .HasChildren }}
                                 <li class="nav-item dropdown {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
                                     <a class="nav-link dropdown-toggle" href="{{ .URL }}" title="{{ .Title }}" id="pagesDropdown" role="button" data-toggle="dropdown">{{ .Name }}</a>
-                                    <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                    <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
                                         {{ range .Children }}
-                                            <a class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">
-                                                <span class="h6 mb-0">{{ .Name }}</span>
-                                                <p class="text-small text-muted">{{ .Title }}</p>
-                                            </a>
+                                            {{ if .HasChildren }}
+                                                <li class="dropdown-submenu">
+                                                    <a id="dropdownMenu{{.Identifier}}" href="{{ .URL }}" title="{{ .Title }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                                        <span class="h6 mb-0">{{ .Name }}</span>
+                                                        <p class="text-small text-muted">{{ .Title }}</p>
+                                                    </a>
+                                                    <ul aria-labelledby="dropdownMenu{{.Identifier}}" class="dropdown-menu border-0 shadow">
+                                                        {{ range .Children }}
+                                                            <li>
+                                                                <a href="{{ .URL }}" class="dropdown-item" title="{{ .Title }}">
+                                                                    <span class="h6 mb-0">{{ .Name }}</span>
+                                                                    <p class="text-small text-muted">{{ .Title }}</p>
+                                                                </a>
+                                                            </li>
+                                                        {{ end }}
+                                                    </ul>
+                                                  </li>
+                                            {{ else }}
+                                                <li>
+                                                    <a class="dropdown-item {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">
+                                                        <span class="h6 mb-0">{{ .Name }}</span>
+                                                        <p class="text-small text-muted">{{ .Title }}</p>
+                                                    </a>
+                                                </li>
+                                            {{ end }}
                                         {{ end }}
-                                    </div>
+                                    </ul>
                                 </li>
                             {{ else }}
                                 <li class="nav-item">
