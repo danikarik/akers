@@ -1,11 +1,16 @@
-os: osx
-install: brew install hugo
-script: hugo -b $BASE_URL
+install:
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.55.4/hugo_0.55.4_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
+script:
+  - hugo -b $BASE_URL
+  - mkdir -p dsource
+  - zip -r public.zip ./public
+  - mv public.zip dsource/public.zip
 deploy:
   provider: s3
   access_key_id: "$AWS_ACCESS_KEY_ID"
   secret_access_key: "$AWS_SECRET_ACCESS_KEY"
   bucket: "$AWS_S3_BUCKET"
   skip_cleanup: true
-  local_dir: public
+  local_dir: dsource
   upload-dir: akers.kz
