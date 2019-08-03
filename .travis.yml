@@ -3,9 +3,10 @@ install:
   - sudo dpkg -i hugo_0.55.4_Linux-64bit.deb
 script:
   - hugo -b $BASE_URL
+  - cd $TRAVIS_BUILD_DIR/public
+  - zip -r $TRAVIS_COMMIT *
   - mkdir -p dsource
-  - zip -r public.zip ./public
-  - mv public.zip dsource/public.zip
+  - mv $TRAVIS_COMMIT.zip dsource/$TRAVIS_COMMIT.zip
 deploy:
   provider: s3
   access_key_id: "$AWS_ACCESS_KEY_ID"
