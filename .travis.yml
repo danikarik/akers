@@ -1,11 +1,11 @@
 os: osx
 install: brew install hugo
-script: hugo -b https://danikarik.github.io/akers/
+script: hugo -b $BASE_URL
 deploy:
-  provider: pages
+  provider: s3
+  access_key_id: "$AWS_ACCESS_KEY_ID"
+  secret_access_key: "$AWS_SECRET_ACCESS_KEY"
+  bucket: "$AWS_S3_BUCKET"
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
   local_dir: public
-  keep_history: true
-  on:
-    branch: master
+  upload-dir: akers.kz
