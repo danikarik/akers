@@ -1,0 +1,11 @@
+os: osx
+install: brew install hugo
+script: hugo -b https://danikarik.github.io/akers/
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: public
+  keep_history: true
+  on:
+    branch: master
