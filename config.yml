@@ -52,18 +52,96 @@ menu:
     url: /product/urology/
     parent: richardwolf
     weight: -169
+  - identifier: gynecology
+    name: Гинекология
+    title: Гинекология
+    url: /product/gynecology/
+    parent: richardwolf
+    weight: -168
+  - identifier: surgery
+    name: Хирургия
+    title: Хирургия
+    url: /product/surgery/
+    parent: richardwolf
+    weight: -167
+  - identifier: spine_surgery
+    name: Хирургия позвоночника
+    title: Хирургия позвоночника
+    url: /product/spine_surgery/
+    parent: richardwolf
+    weight: -166
+  - identifier: proctology
+    name: Проктология
+    title: Проктология
+    url: /product/proctology/
+    parent: richardwolf
+    weight: -165
+  - identifier: visualization
+    name: Визуализация
+    title: Визуализация
+    url: /product/visualization/
+    parent: richardwolf
+    weight: -164
+  - identifier: ent
+    name: Оборудование и инструменты для лор
+    title: Оборудование и инструменты для лор
+    url: /product/ent/
+    parent: richardwolf
+    weight: -163
+  - identifier: thoracoscopy
+    name: Торакоскопия
+    title: Торакоскопия
+    url: /product/thoracoscopy/
+    parent: richardwolf
+    weight: -162
+  - identifier: arthroscopy
+    name: Артроскопическое оборудование
+    title: Артроскопическое оборудование
+    url: /product/arthroscopy/
+    parent: richardwolf
+    weight: -161
+  - identifier: core
+    name: Интеграционная операционная система (CORE)
+    title: Интеграционная операционная система (CORE)
+    url: /product/core/
+    parent: richardwolf
+    weight: -160
   - identifier: stom
     name: Стоматологические установки
     title: Стоматологические установки
     url: /product/stom/
     parent: product
-    weight: -160
+    weight: -159
+  - identifier: diplomat
+    name: Дипломат (Словакия)
+    title: Дипломат (Словакия)
+    url: /product/diplomat/
+    parent: stom
+    weight: -158
+  - identifier: zc
+    name: ZC-9400A (Китай)
+    title: ZC-9400A (Китай)
+    url: /product/zc/
+    parent: stom
+    weight: -157
   - identifier: tipsandmicromotors
     name: Наконечники, Микромоторы
     title: Наконечники, Микромоторы
     url: /product/tipsandmicromotors/
     parent: product
     weight: -150
+  - identifier: bienair
+    name: Bien Air
+    title: Bien Air
+    url: /product/bienair/
+    parent: tipsandmicromotors
+    weight: -149
+  - identifier: care
+    name: Средства по уходу
+    title: Средства по уходу
+    url: /product/care/
+    parent: tipsandmicromotors
+    weight: -148
   - identifier: compressor
     name: Компрессоры
     title: Компрессоры
@@ -88,6 +166,18 @@ menu:
     url: /product/lab/
     parent: product
     weight: -110
+  - identifier: orthflex
+    name: Фрезерные станки ORTHFLEX
+    title: Фрезерные станки ORTHFLEX
+    url: /product/orthflex/
+    parent: lab
+    weight: -109
+  - identifier: silvercast
+    name: Литейная машина SILVERCAST
+    title: Литейная машина SILVERCAST
+    url: /product/silvercast/
+    parent: lab
+    weight: -108
   - identifier: gallery
     name: Галерея
     title: Галерея

@@ -6,5 +6,4 @@ cover: img/photo-man-book.jpg
 images:
 - img/photo-man-book.jpg
 - img/photo-man-book.jpg
-
 ---
