@@ -5,8 +5,3 @@ description: Bien Air
 image: img/photo-man-book.jpg
 
 ---
-вфпрфмарныауяныпнуап
-
-вярпмаямярокпма
-
-аоявпаолкакяакакф
