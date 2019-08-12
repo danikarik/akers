@@ -262,12 +262,6 @@ menu:
     url: /product/xray/protection/
     parent: xray
     weight: -105
-  - identifier: extra
-    name: Дополнительное оборудование
-    title: Дополнительное оборудование
-    url: /product/extra/
-    parent: product
-    weight: -90
   - identifier: stomfurniture
     name: Стоматологическая мебель
     title: Стоматологическая мебель
@@ -280,12 +274,72 @@ menu:
     url: /product/instruments/
     parent: product
     weight: -70
+  - identifier: removal
+    name: Удаления
+    title: Удаления
+    url: /product/instruments/removal/
+    parent: instruments
+    weight: -69
+  - identifier: implantation
+    name: Хирургия и имплантация
+    title: Хирургия и имплантация
+    url: /product/instruments/implantation/
+    parent: instruments
+    weight: -68
+  - identifier: diagnostics
+    name: Диагностика
+    title: Диагностика
+    url: /product/instruments/diagnostics/
+    parent: instruments
+    weight: -67
+  - identifier: restoration
+    name: Терапевтическая реставрация
+    title: Терапевтическая реставрация
+    url: /product/instruments/restoration/
+    parent: instruments
+    weight: -66
+  - identifier: endodontics
+    name: Эндодонтия
+    title: Эндодонтия
+    url: /product/instruments/endodontics/
+    parent: instruments
+    weight: -65
+  - identifier: periodontal
+    name: Пародонтологическое
+    title: Пародонтологическое
+    url: /product/instruments/periodontal/
+    parent: instruments
+    weight: -64
+  - identifier: spoons
+    name: Оттискные ложки
+    title: Оттискные ложки
+    url: /product/instruments/spoons/
+    parent: instruments
+    weight: -63
+  - identifier: laboratory
+    name: Лаборатория
+    title: Лаборатория
+    url: /product/instruments/laboratory/
+    parent: instruments
+    weight: -62
+  - identifier: orthodontics
+    name: Ортодонтия
+    title: Ортодонтия
+    url: /product/instruments/orthodontics/
+    parent: instruments
+    weight: -61
   - identifier: lab
     name: Зуботехническая Лаборатория
     title: Зуботехническая Лаборатория
     url: /product/lab/
     parent: product
     weight: -50
+  - identifier: extra
+    name: Дополнительное оборудование
+    title: Дополнительное оборудование
+    url: /product/extra/
+    parent: product
+    weight: -40
   - identifier: orthflex
     name: Фрезерные станки ORTHFLEX
     title: Фрезерные станки ORTHFLEX
