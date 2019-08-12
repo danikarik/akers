@@ -19,7 +19,7 @@
                                         {{ range .Children }}
                                             {{ if .HasChildren }}
                                                 <li class="dropdown-submenu">
-                                                    <a id="dropdownMenu{{.Identifier}}" href="{{ .URL }}" title="{{ .Title }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                                    <a id="dropdownMenu{{.Identifier}}" href="#" title="{{ .Title }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-item dropdown-toggle {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
                                                         <span class="h6 mb-0">{{ .Name }}</span>
                                                         <p class="text-small text-muted">{{ .Title }}</p>
                                                     </a>

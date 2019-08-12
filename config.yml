@@ -40,71 +40,71 @@ menu:
     title: Продукция
     url: /product/
     weight: -180
-  - identifier: richardwolf
+  - identifier: endoscopic
     name: Эндоскопическое Оборудование
     title: Эндоскопическое Оборудование
-    url: /product/richardwolf/
+    url: /product/endoscopic/
     parent: product
     weight: -170
   - identifier: urology
     name: Урология
     title: Урология
-    url: /product/urology/
-    parent: richardwolf
+    url: /product/endoscopic/urology/
+    parent: endoscopic
     weight: -169
   - identifier: gynecology
     name: Гинекология
     title: Гинекология
-    url: /product/gynecology/
-    parent: richardwolf
+    url: /product/endoscopic/gynecology/
+    parent: endoscopic
     weight: -168
   - identifier: surgery
     name: Хирургия
     title: Хирургия
-    url: /product/surgery/
-    parent: richardwolf
+    url: /product/endoscopic/surgery/
+    parent: endoscopic
     weight: -167
   - identifier: spine_surgery
     name: Хирургия позвоночника
     title: Хирургия позвоночника
-    url: /product/spine_surgery/
-    parent: richardwolf
+    url: /product/endoscopic/spine_surgery/
+    parent: endoscopic
     weight: -166
   - identifier: proctology
     name: Проктология
     title: Проктология
-    url: /product/proctology/
-    parent: richardwolf
+    url: /product/endoscopic/proctology/
+    parent: endoscopic
     weight: -165
   - identifier: visualization
     name: Визуализация
     title: Визуализация
-    url: /product/visualization/
-    parent: richardwolf
+    url: /product/endoscopic/visualization/
+    parent: endoscopic
     weight: -164
   - identifier: ent
     name: Оборудование и инструменты для лор
     title: Оборудование и инструменты для лор
-    url: /product/ent/
-    parent: richardwolf
+    url: /product/endoscopic/ent/
+    parent: endoscopic
     weight: -163
   - identifier: thoracoscopy
     name: Торакоскопия
     title: Торакоскопия
-    url: /product/thoracoscopy/
-    parent: richardwolf
+    url: /product/endoscopic/thoracoscopy/
+    parent: endoscopic
     weight: -162
   - identifier: arthroscopy
     name: Артроскопическое оборудование
     title: Артроскопическое оборудование
-    url: /product/arthroscopy/
-    parent: richardwolf
+    url: /product/endoscopic/arthroscopy/
+    parent: endoscopic
     weight: -161
   - identifier: core
     name: Интеграционная операционная система (CORE)
     title: Интеграционная операционная система (CORE)
-    url: /product/core/
-    parent: richardwolf
+    url: /product/endoscopic/core/
+    parent: endoscopic
     weight: -160
   - identifier: stom
     name: Стоматологические установки
@@ -115,13 +115,13 @@ menu:
   - identifier: diplomat
     name: Дипломат (Словакия)
     title: Дипломат (Словакия)
-    url: /product/diplomat/
+    url: /product/stom/diplomat/
     parent: stom
     weight: -158
   - identifier: zc
     name: ZC-9400A (Китай)
     title: ZC-9400A (Китай)
-    url: /product/zc/
+    url: /product/stom/zc/
     parent: stom
     weight: -157
   - identifier: tipsandmicromotors
@@ -130,24 +130,60 @@ menu:
     url: /product/tipsandmicromotors/
     parent: product
     weight: -150
-  - identifier: bienair
-    name: Bien Air
-    title: Bien Air
-    url: /product/bienair/
+  - identifier: turbo
+    name: Турбинные наконечники
+    title: Турбинные наконечники
+    url: /product/tipsandmicromotors/turbo/
     parent: tipsandmicromotors
     weight: -149
+  - identifier: angularandstraight
+    name: Угловые и прямые наконечники
+    title: Угловые и прямые наконечники
+    url: /product/tipsandmicromotors/angularandstraight/
+    parent: tipsandmicromotors
+    weight: -148
+  - identifier: micromotors
+    name: Микромоторы
+    title: Микромоторы
+    url: /product/tipsandmicromotors/micromotors/
+    parent: tipsandmicromotors
+    weight: -147
+  - identifier: maxillofacial
+    name: Челюстно лицевая хирургия и имплантология
+    title: Челюстно лицевая хирургия и имплантология
+    url: /product/tipsandmicromotors/maxillofacial/
+    parent: tipsandmicromotors
+    weight: -146
   - identifier: care
     name: Средства по уходу
     title: Средства по уходу
-    url: /product/care/
+    url: /product/tipsandmicromotors/care/
     parent: tipsandmicromotors
-    weight: -148
+    weight: -145
   - identifier: compressor
     name: Компрессоры
     title: Компрессоры
     url: /product/compressor/
     parent: product
     weight: -140
+  - identifier: ekom-compressor
+    name: Компрессоры EKOM
+    title: Компрессоры EKOM
+    url: /product/compressor/ekom/
+    parent: compressor
+    weight: -139
+  - identifier: diplomat-compressor
+    name: Компрессоры Дипломат
+    title: Компрессоры Дипломат
+    url: /product/compressor/diplomat/
+    parent: compressor
+    weight: -138
+  - identifier: china-compressor
+    name: Компрессоры Китай
+    title: Компрессоры Китай
+    url: /product/compressor/china/
+    parent: compressor
+    weight: -137
   - identifier: clothes
     name: Медицинская одежда
     title: Медицинская одежда
