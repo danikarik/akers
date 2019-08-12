@@ -226,6 +226,42 @@ menu:
     url: /product/disinfection/distiller/
     parent: disinfection
     weight: -124
+  - identifier: xray
+    name: Рентген оборудование
+    title: Рентген оборудование
+    url: /product/disinfection/xray/
+    parent: product
+    weight: -110
+  - identifier: sighting
+    name: Прицельные
+    title: Прицельные
+    url: /product/xray/sighting/
+    parent: xray
+    weight: -109
+  - identifier: 2d
+    name: 2D диагностика
+    title: 2D диагностика
+    url: /product/xray/2d/
+    parent: xray
+    weight: -108
+  - identifier: 3d
+    name: 3D диагностика
+    title: 3D диагностика
+    url: /product/xray/3d/
+    parent: xray
+    weight: -107
+  - identifier: intraoral
+    name: Интраоральная диагностика
+    title: Интраоральная диагностика
+    url: /product/xray/intraoral/
+    parent: xray
+    weight: -106
+  - identifier: protection
+    name: Рентгензащитная одежда
+    title: Рентгензащитная одежда
+    url: /product/xray/protection/
+    parent: xray
+    weight: -105
   - identifier: extra
     name: Дополнительное оборудование
     title: Дополнительное оборудование
