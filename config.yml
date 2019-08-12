@@ -184,38 +184,74 @@ menu:
     url: /product/compressor/china/
     parent: compressor
     weight: -137
-  - identifier: clothes
-    name: Медицинская одежда
-    title: Медицинская одежда
-    url: /product/clothes/
+  - identifier: disinfection
+    name: Дезинфекция, Стерилизация
+    title: Дезинфекция, Стерилизация
+    url: /product/disinfection/
     parent: product
     weight: -130
+  - identifier: autoclaves
+    name: Автоклавы
+    title: Автоклавы
+    url: /product/disinfection/autoclaves/
+    parent: disinfection
+    weight: -129
+  - identifier: washing
+    name: Моечные машины
+    title: Моечные машины
+    url: /product/disinfection/washing/
+    parent: disinfection
+    weight: -128
+  - identifier: packing
+    name: Упаковочные машины
+    title: Упаковочные машины
+    url: /product/disinfection/packing/
+    parent: disinfection
+    weight: -127
+  - identifier: store
+    name: Камера хранения стерильных инструментов
+    title: Камера хранения стерильных инструментов
+    url: /product/disinfection/store/
+    parent: disinfection
+    weight: -126
+  - identifier: recirculator
+    name: Рециркуляторы
+    title: Рециркуляторы
+    url: /product/disinfection/recirculator/
+    parent: disinfection
+    weight: -125
+  - identifier: distiller
+    name: Дистиллятор
+    title: Дистиллятор
+    url: /product/disinfection/distiller/
+    parent: disinfection
+    weight: -124
   - identifier: extra
     name: Дополнительное оборудование
     title: Дополнительное оборудование
     url: /product/extra/
     parent: product
-    weight: -120
+    weight: -90
   - identifier: lab
     name: Зуботехническая Лаборатория
     title: Зуботехническая Лаборатория
     url: /product/lab/
     parent: product
-    weight: -110
+    weight: -80
   - identifier: orthflex
     name: Фрезерные станки ORTHFLEX
     title: Фрезерные станки ORTHFLEX
     url: /product/orthflex/
     parent: lab
-    weight: -109
+    weight: -70
   - identifier: silvercast
     name: Литейная машина SILVERCAST
     title: Литейная машина SILVERCAST
     url: /product/silvercast/
     parent: lab
-    weight: -108
+    weight: -60
   - identifier: gallery
     name: Галерея
     title: Галерея
     url: /gallery/
-    weight: -100
+    weight: -50
