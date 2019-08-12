@@ -328,32 +328,62 @@ menu:
     url: /product/instruments/orthodontics/
     parent: instruments
     weight: -61
-  - identifier: lab
-    name: Зуботехническая Лаборатория
-    title: Зуботехническая Лаборатория
-    url: /product/lab/
+  - identifier: parts
+    name: Запасные части
+    title: Запасные части
+    url: /product/parts/
     parent: product
     weight: -50
+  - identifier: parts-diplomat
+    name: з/ч дипломат
+    title: з/ч дипломат
+    url: /product/parts/diplomat/
+    parent: parts
+    weight: -49
+  - identifier: parts-china
+    name: з/ч китай
+    title: з/ч китай
+    url: /product/parts/china/
+    parent: parts
+    weight: -48
+  - identifier: parts-ekom
+    name: з/ч компрессоры ECOM
+    title: з/ч компрессоры ECOM
+    url: /product/parts/ekom/
+    parent: parts
+    weight: -47
+  - identifier: parts-bienair
+    name: з/ч инструменты (BienAir)
+    title: з/ч инструменты (BienAir)
+    url: /product/parts/bienair/
+    parent: parts
+    weight: -46
   - identifier: extra
     name: Дополнительное оборудование
     title: Дополнительное оборудование
     url: /product/extra/
     parent: product
-    weight: -40
+    weight: -30
+  - identifier: lab
+    name: Зуботехническая Лаборатория
+    title: Зуботехническая Лаборатория
+    url: /product/lab/
+    parent: product
+    weight: -20
   - identifier: orthflex
     name: Фрезерные станки ORTHFLEX
     title: Фрезерные станки ORTHFLEX
     url: /product/orthflex/
     parent: lab
-    weight: -40
+    weight: -10
   - identifier: silvercast
     name: Литейная машина SILVERCAST
     title: Литейная машина SILVERCAST
     url: /product/silvercast/
     parent: lab
-    weight: -30
+    weight: -9
   - identifier: gallery
     name: Галерея
     title: Галерея
     url: /gallery/
-    weight: -20
+    weight: -8
