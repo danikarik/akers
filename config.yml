@@ -268,26 +268,38 @@ menu:
     url: /product/extra/
     parent: product
     weight: -90
+  - identifier: stomfurniture
+    name: Стоматологическая мебель
+    title: Стоматологическая мебель
+    url: /product/stomfurniture/
+    parent: product
+    weight: -80
+  - identifier: instruments
+    name: Стоматологические инструменты
+    title: Стоматологические инструменты
+    url: /product/instruments/
+    parent: product
+    weight: -70
   - identifier: lab
     name: Зуботехническая Лаборатория
     title: Зуботехническая Лаборатория
     url: /product/lab/
     parent: product
-    weight: -80
+    weight: -50
   - identifier: orthflex
     name: Фрезерные станки ORTHFLEX
     title: Фрезерные станки ORTHFLEX
     url: /product/orthflex/
     parent: lab
-    weight: -70
+    weight: -40
   - identifier: silvercast
     name: Литейная машина SILVERCAST
     title: Литейная машина SILVERCAST
     url: /product/silvercast/
     parent: lab
-    weight: -60
+    weight: -30
   - identifier: gallery
     name: Галерея
     title: Галерея
     url: /gallery/
-    weight: -50
+    weight: -20
