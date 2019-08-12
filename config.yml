@@ -370,20 +370,26 @@ menu:
     url: /product/lab/
     parent: product
     weight: -20
-  - identifier: orthflex
-    name: Фрезерные станки ORTHFLEX
-    title: Фрезерные станки ORTHFLEX
-    url: /product/orthflex/
+  - identifier: milling
+    name: Фрезерный аппарат
+    title: Фрезерный аппарат
+    url: /product/lab/milling/
     parent: lab
-    weight: -10
-  - identifier: silvercast
-    name: Литейная машина SILVERCAST
-    title: Литейная машина SILVERCAST
-    url: /product/silvercast/
+    weight: -19
+  - identifier: foundry
+    name: Литейный аппарат
+    title: Литейная аппарат
+    url: /product/lab/foundry/
     parent: lab
-    weight: -9
+    weight: -18
+  - identifier: vacuum
+    name: Вакуум-формировочная машина
+    title: Вакуум-формировочная машина
+    url: /product/lab/vacuum/
+    parent: lab
+    weight: -17
   - identifier: gallery
     name: Галерея
     title: Галерея
     url: /gallery/
-    weight: -8
+    weight: -10
