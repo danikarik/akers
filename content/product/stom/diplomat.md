@@ -9,7 +9,7 @@ image: img/photo-man-book.jpg
 
 DA370 / DA380 DIPLOMAT ADEPT
 
-![](/uploads/da370_380-1.png)
+![](/uploads/da370_380-1.png)![](/uploads/71734-7952589.jpg)
 
 **Максимум комфорта, выдающаяся эргономика и технические характеристики**
 
