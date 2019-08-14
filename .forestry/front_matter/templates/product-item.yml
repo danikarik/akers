@@ -14,5 +14,3 @@ fields:
 - type: file
   name: image
   label: image
-pages:
-- content/product/disinfection/автоклавы.md
