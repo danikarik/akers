@@ -36,3 +36,5 @@ Bora LK 1600732-001
 |  **Вес (г)** | 75  | 78  | 72  |
 | **Переходник**  | Unifix  | Unifix  | Multiflex® LED  |
 |  **Артикул** | Bora LED 1600638-001  | Bora L 1600382-001  | Bora LK 1600732-001  | 
+
+#### **PRESTIGE** ICONIC PRECISION
