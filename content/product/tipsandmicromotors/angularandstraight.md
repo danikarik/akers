@@ -7,7 +7,7 @@ image: img/photo-man-book.jpg
 ---
 ## BienAir
 
-### **CA 1:5** HERITAGE OF RELIABILITY.
+### **CA 1:5** НАДЕЖНОЕ НАСЛЕДИЕ.
 
 ![](/uploads/1600690-001_ba_ca_1-5_l_micro_left1.png)
 
@@ -49,7 +49,7 @@ CA 1:5 Standard 1600325-001
 
 | **Артикул**  | CA 1:5 L Standard 1600386-001  | CA 1:5 L Micro-Series 1600690-001  | CA 1:5 Standard 1600325-001  |
 
-### **CA 1:1** HERITAGE OF RELIABILITY.
+### **CA 1:1** НАДЕЖНОЕ НАСЛЕДИЕ.
 
 ![](/uploads/1600424-001_ba_ca_1-1_right1_1_1.png)
 
@@ -185,11 +185,11 @@ CA 20:1 L KM Micro Series 1600786-001  |
 
 Артикул:
 
-PM 1:1 external irrigation 1600052-001
+PM 1:1 внешнее охлаждение 1600052-001
 
 #### Технические характеристики:
 
-|   | **PM 1:1 external irrigation**  |
+|   | **PM 1:1** внешнее охлаждение  |
 
 |:-:|---|
 
@@ -207,7 +207,7 @@ PM 1:1 external irrigation 1600052-001
 
 | **Система ирригации**  | Сменные муфты с / без ирригационной трубки  |
 
-| **Артикул**  | PM 1:1 external irrigation 1600052-001  |
+| **Артикул**  | PM 1:1 внешнее охлаждение 1600052-001  |
 
 ### PM 1:2
 
