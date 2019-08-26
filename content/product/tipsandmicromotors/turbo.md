@@ -37,7 +37,7 @@ Bora LK 1600732-001
 | Переходник | Unifix | Unifix | Multiflex® LED |
 | Артикул | Bora LED 1600638-001 | Bora L 1600382-001 | Bora LK 1600732-001 |
 
-### **PRESTIGE** ICONIC PRECISION
+### **PRESTIGE** ICONIC PRECISION 
 
 ![](/uploads/1600380-001_BA_TU_PrestigeL_right-0.png)
 
@@ -81,7 +81,7 @@ Prestige L 1600380-001
 
 | **Артикул**  | Prestige LED 1600641-001  | Prestige LK 1600734-001  | Prestige L 1600380-001  |
 
-### **BLACK PEARL ECO** SIMPLICITY ITSELF
+### **BLACK PEARL ECO** SIMPLICITY ITSELF (САМА ПРОСТОТА)
 
 ![](/uploads/group_ba_tu_blackpearleco.png)
 
@@ -123,7 +123,7 @@ Black Pearl ECO 4 way 1600040-001
 
 | **Артикул**  | Black Pearl Eco 3 way 1600039-001  | Black Pearl ECO 4 way 1600040-001  |
 
-### **BORALINA** UNCOMPROMISING QUALITY
+### **BORALINA** UNCOMPROMISING QUALITY (БЕСКОМПРОМИССНОЕ КАЧЕСТВО)
 
 ![](/uploads/1600373-001_ba_tu_boralina_right_3.png)
 
@@ -269,7 +269,7 @@ Bien-Air устанавливает новые стандарты в облас�
 
 | **Номер позиции (без коннектора)**  | DSHC7031K  | DSHC7032K  |
 
-### турбины — VIENNA
+### Турбины — VIENNA
 
 ![](/uploads/vienna-500x1001.jpg)
 
