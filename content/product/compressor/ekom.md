@@ -47,5 +47,3 @@ image: img/photo-man-book.jpg
 | __Размеры (ш х гл х в)*__  |  290x430x490 мм | 380x525x575 мм |
 
 ### DK50-10
-
-![](/uploads/dk50_10_2017_foto2png.png)![](/uploads/dk50_10_2017_foto1png.png)
