@@ -7,7 +7,7 @@ image: img/photo-man-book.jpg
 ---
 ## BienAir
 
-### **LUBRICARE** SIMPLIFIED MAINTENANCE
+### **LUBRICARE** SIMPLIFIED MAINTENANCE (Упрощенное техническое обслуживание)
 
 ![](/uploads/1600915-001_ba_maintenance_lubricare_left_1.png)
 
@@ -43,7 +43,7 @@ Lubricare 1600915-001
 
 | **Давление воздуха**  | 0,3\~0,5 МПа  |
 
-| **Рекомендуемое** 
+| **Рекомендуемое**
 
 **давление воздуха**  | 0.35 МПа  |
 
