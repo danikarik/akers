@@ -7,7 +7,7 @@ image: img/photo-man-book.jpg
 ---
 ## BienAir
 
-### **ICHIROPRO** ULTIMATE IMPLANTOLOGY.
+### **ICHIROPRO** ULTIMATE IMPLANTOLOGY. (Супер имплантология)
 
 ![](/uploads/1700440-001_ba_im_ichiropro_left_2-1.png)
 
@@ -27,11 +27,11 @@ iChiropro 1600784-001
 
 #### УСТРОЙСТВА, СОВМЕСТИМЫЕ С ПРИЛОЖЕНИЕМ iCHIROPRO:
 
-* iPad (5th generation)
+* iPad (5 поколения)
 * iPad Pro 9.7"
 * iPad Air 2
 * iPad Air
-* iPad (6th generation)
+* iPad (6 поколения)
 
 #### Технические характеристики:
 
@@ -84,7 +84,7 @@ Chiropro 3rd Gen set with
 Micro-Series CA 20:1 L  
 1700707-001  |
 
-### **NEW CHIROPRO PLUS** PURE SIMPLICITY
+### **NEW CHIROPRO PLUS** PURE SIMPLICITY (Сама простота)
 
 ![](/uploads/1700709-001_chiropro_plus_f_2018_instruments_ca.png)
 
@@ -133,28 +133,28 @@ Chiropro PLUS 3rd Gen set with Micro-Series CA1:2.5L 1700751-001
 
 | **Масса микромотора**  | 115г  | 110г  | 115г  |
 
-| **Артикул**  | Chiropro PLUS 3rd Gen set   
-without CA 1700710-001   
-  
+| **Артикул**  | Chiropro PLUS 3rd Gen set  
+without CA 1700710-001
+
 Chiropro PLUS 3rd Gen set with  
 Micro-Series CA 20:1 L  
-1700709-001   
-  
+1700709-001
+
 Chiropro PLUS 3rd Gen set with  
 Micro-Series CA 1:2.5 L  
-1700751-001  | Комплект системы Chiropro 3rd Gen   
-без углового наконечника 1700708-001   
-  
+1700751-001  | Комплект системы Chiropro 3rd Gen  
+без углового наконечника 1700708-001
+
 Chiropro 3rd Gen set with  
 Micro-Series CA 20:1 L  
 1700707-001  | iChiropro set with Micro-Series  
 CA 20:1 L  
-1700440-001   
-  
+1700440-001
+
 iChiropro set without Micro-Series  
 CA 20:1 L 1700439-001  |
 
-### **CHIROPRO L** UNBEATABLE PERFORMANCE.
+### **CHIROPRO L** UNBEATABLE PERFORMANCE. (CHIROPRO L непревзойденная производительность.)
 
 ![](/uploads/1600613-001_ba_im_chiroprol_face_1_1.png)
 
@@ -203,18 +203,18 @@ Chiropro L 1600613-001
 
 | **Масса микромотора**  | 115г  | 115г  | 110г  |
 
-| **Артикул**  | Chiropro L set with CA 20:1 L   
-1700307-001   
-  
-Chiropro L set without CA   
+| **Артикул**  | Chiropro L set with CA 20:1 L  
+1700307-001
+
+Chiropro L set without CA  
 1700298-001  | iChiropro set with Micro-Series  
 CA 20:1 L  
-1700440-001   
-  
+1700440-001
+
 iChiropro set without Micro-Series  
-CA 20:1 L 1700439-001  | Комплект системы Chiropro 3rd Gen   
-без углового наконечника 1700708-001   
-  
+CA 20:1 L 1700439-001  | Комплект системы Chiropro 3rd Gen  
+без углового наконечника 1700708-001
+
 Chiropro 3rd Gen set with  
 Micro-Series CA 20:1 L  
 1700707-001  |
