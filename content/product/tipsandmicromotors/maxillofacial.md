@@ -9,7 +9,7 @@ image: img/photo-man-book.jpg
 
 ### **ICHIROPRO** ULTIMATE IMPLANTOLOGY.
 
-![](/uploads/1700440-001_ba_im_ichiropro_left_2.png)
+![](/uploads/1700440-001_ba_im_ichiropro_left_2-1.png)
 
 Есть одна причина, почему система iChiropro настолько популярна как среди опытных, так и среди начинающих имплантологов.
 
@@ -83,3 +83,15 @@ Chiropro L set without CA
 Chiropro 3rd Gen set with  
 Micro-Series CA 20:1 L  
 1700707-001  |
+
+### **NEW CHIROPRO PLUS** PURE SIMPLICITY
+
+Простота: это ключевое слово, характеризующее новую линейку микромоторов для имплантологии и хирургии полости рта, разработанную компанией Bien-Air Dental. Помимо имплантологии, вы ежедневно занимаетесь хирургией полости рта? Откройте для себя систему **Chiropro PLUS**, специально созданную для хирургов-стоматологов и челюстно-лицевых хирургов. Благодаря широким возможностям комбинирования система **Chiropro PLUS**идеальна при выполнении любых операций в области пародонтологии и хирургии полости рта.
+
+Артикул:
+
+Chiropro PLUS 3rd Gen without CA 1700710-001
+
+Chiropro PLUS 3rd Gen set with Micro-Series CA 20:1 L 1700709-001
+
+Chiropro PLUS 3rd Gen set with Micro-Series CA1:2.5L 1700751-001
