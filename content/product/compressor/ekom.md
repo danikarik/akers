@@ -48,4 +48,4 @@ image: img/photo-man-book.jpg
 
 ### DK50-10
 
-![](/uploads/dk50_10_2017_foto2png.png)        ![](/uploads/dk50_10_2017_foto1png.png)
+![](/uploads/dk50_10_2017_foto2png.png)![](/uploads/dk50_10_2017_foto1png.png)
