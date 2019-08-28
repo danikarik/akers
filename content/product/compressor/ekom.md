@@ -5,8 +5,6 @@ description: Компрессоры EKOM
 image: img/photo-man-book.jpg
 
 ---
-## **KОМПРЕССОРЫ**
-
 ### DK50 B
 
 ![](/uploads/dk50_skrinkapng.png)  ![](/uploads/dk50png.png)
