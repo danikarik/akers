@@ -19,7 +19,9 @@ jobs:
         uses: actions/checkout@master
 
       - name: Build
-        run: hugo -b $BASE_URL
+        env:
+          BASE_URL: ${{ secrets.BASE_URL }}
+        run: hugo -b ${BASE_URL}
 
       - name: Packing zip
         run: |
