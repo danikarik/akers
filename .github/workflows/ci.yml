@@ -38,5 +38,5 @@ jobs:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         uses: actions/aws/cli@master
         with:
-          args: s3 cp build/${GITHUB_SHA}.zip s3://${AWS_S3_BUCKET}/akers.kz/
+          args: s3 cp public/build/${GITHUB_SHA}.zip s3://${AWS_S3_BUCKET}/akers.kz/
 
