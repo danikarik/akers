@@ -5,6 +5,10 @@ description: Литейный аппарат
 image: img/photo-man-book.jpg
 
 ---
+### SilverCast ® Compact
+
+![](/uploads/silvercast_liteynaya_vysokochastotnaya_ustanovka_647.jpg)
+
 **Основные преимущества модели:**
 
 1. Нержавеющий корпус;
