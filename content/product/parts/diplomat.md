@@ -102,3 +102,81 @@ image: img/photo-man-book.jpg
 ![](/uploads/b50f086f1dafcd1255f64503bfb8cad7.jpg)
 
 **Скелет-корпус светильника Sirius**
+
+![](/uploads/074ae114961ffad1b0000b4c33b7ec1e.jpg)
+
+**Крышка передняя Nr.1**
+
+![](/uploads/a604565ef2edcd8fe470376719432255.jpg)
+
+**Эжектор**
+
+![](/uploads/45ef85c8162cb61af0bbaba09f74fcde.jpg)
+
+**Ножной выключатель кресла DM20**
+
+![](/uploads/4b379f60bf0147f97d1b064a823b7149.jpg)
+
+**Ножной выключатель кресла DЕ20**
+
+![](/uploads/4b379f60bf0147f97d1b064a823b7149-1.jpg)
+
+**Крышка ситечка белая**
+
+![](/uploads/ace394d3542550a1f6181f5e9313997f.jpg)
+
+**Таблетки для дезинфекции отсоса Cattani (5шт)**
+
+![](/uploads/anti-foaming.png)
+
+**Рукоятка P 11 - Cattani - для Дипломата**
+
+![](/uploads/3aadf4a031c229cf33f6196cbb20b7ba.jpg)
+
+**Рукоятка P 16 - Cattani - для Дипломата**
+
+![](/uploads/99928a3b5d4ef1da636a9329ada5fc18.jpg)
+
+**Клапан ELM D305 NO G18' - (Jaksa -трехходовой вход сверху)**
+
+![](/uploads/e907f0fb6643fb534bb2b6cb6204fda7.jpg)
+
+**Клапан JAKSA ELM D305 G18' - (трехходовой)**
+
+![](/uploads/45cab73b8cef9953e5b05cfeaa4788f4.jpg)
+
+**Элм.клапан Jaksa ELM D310 DN2 G18**
+
+![](/uploads/d5579c04f4954c41431c8b05a851085f.jpg)
+
+**Электормагнитный клапан JAKSA D 211 для DE,DL,DC**
+
+![](/uploads/461da3878d0ed2eb75d5a4e8b9be537a.jpg)
+
+**Бачок -фильтр регулятор воды**
+
+![](/uploads/66afa2446aaaba12351a089763ff11e5.jpg)
+
+**Фильтр регулятор воды FR BIT 14 5008 RMSA(392662.009)**
+
+![](/uploads/4c62bf894c426cd3dc973c4549ec1239.jpg)
+
+**Сосуд фильтра регулятора воздуха RF BIT 14 5008 RMSA**
+
+![](/uploads/e39673f1489288a2d27f678a9b1072dd.jpg)
+
+**Фильтр регулятор FRBIT**
+
+![](/uploads/547ca434e55080e2686230eb356154f3.jpg)
+
+**DISPO плата + MP0 + кабель**
+
+![](/uploads/34947e0a391531a983a7cd986352f9dd.jpg)
+
+**Плата REGM4 - ( для микромоторов M1, M2, M3)**
+
+![](/uploads/a886f4ced548b4bb545d5d015ac54477.jpg)
+
+**FSP - плата управления блокa плевательницы**
+
+![](/uploads/2c5d108dd6e1b0c47bdd026d28619cdc.jpg)
