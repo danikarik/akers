@@ -17,7 +17,7 @@ image: img/photo-man-book.jpg
 
 ![](/uploads/EllbogenSet_01.jpg)
 
-А**ртроскоп**
+**Артроскоп**
 
 **Richard Wolf ARTHROlution**
 
