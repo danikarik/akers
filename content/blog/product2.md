@@ -3,7 +3,7 @@ title: Новый портативный рентген от Vatech
 date: 2018-06-01T10:12:37.000+00:00
 description: bla-bla
 author: admin
-image: img/photo-man-book.jpg
+image: img/1-3-2.jpg
 tags:
 - new
 - discount
