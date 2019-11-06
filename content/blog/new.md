@@ -1,8 +1,8 @@
 ---
 title: Новый
-date: 2018-05-24 10:12:37 +0000
+date: 2019-11-05T10:12:37+00:00
 description: bla-bla
-author: admin
+author: Асель
 image: img/photo-man-book.jpg
 tags:
 - new
