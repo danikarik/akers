@@ -1,7 +1,7 @@
 ---
-title: Welcome
+title: Рентген от Vatech
 date: 2019-11-03T10:12:37+00:00
-description: bla-bla
+description: Pax-i 3D SC
 author: Асель
 image: img/photo-man-book.jpg
 tags:
@@ -9,4 +9,3 @@ tags:
 - discount
 
 ---
-New post
