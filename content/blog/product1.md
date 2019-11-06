@@ -3,7 +3,7 @@ title: Выставка Cadex
 date: 2019-10-19T10:12:37+00:00
 description: Посмотрите наши фотографий!
 author: Асель
-image: img/photo-man-book.jpg
+image: img/3.jpeg
 tags:
 - new
 - discount
