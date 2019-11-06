@@ -1,13 +1,24 @@
 ---
-title: "Product 1"
-date: 2018-06-01T16:12:37+06:00
-description: "bla-bla"
-author: "admin"
-image: "img/photo-man-book.jpg"
-draft: false
+title: Выставка Cadex
+date: 2019-10-19T10:12:37+00:00
+description: Посмотрите наши фотографий!
+author: Асель
+image: img/photo-man-book.jpg
 tags:
-  - "new"
-  - "discount"
----
+- new
+- discount
 
-Product 1
+---
+С 17 по 19 октября организация CADEX провела свою 4 международную выставку, где участвовала наша компания "АКЕРС-СТОМ". 
+
+ ![](/uploads/5af007f28bcf6c06e8237c39_logo_CADEX.png)
+
+Выставка прошла достаточно на высоком уровне. Организаторами была проведена хорошая работа. Спасибо всем!
+
+Снимки сделанные на выставке:
+
+![](/uploads/photo5916634389217913293.jpg)
+
+![](/uploads/photo5917146697211947454.jpg)
+
+ 
