@@ -1,6 +1,6 @@
 ---
 title: Новый портативный рентген от Vatech
-date: 2018-06-01T10:12:37.000+00:00
+date: 2019-10-19T10:12:37+00:00
 description: EzRay Air Portable
 author: Асель
 image: img/photo-man-book.jpg
