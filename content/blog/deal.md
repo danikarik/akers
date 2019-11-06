@@ -1,15 +1,14 @@
 ---
-title: "Акция"
-date: 2018-05-24T16:12:37+06:00
-description: "bla-bla"
-author: "admin"
-image: "img/photo-man-book.jpg"
-draft: false
+title: Акция
+date: 2019-11-19T10:12:37+00:00
+description: bla-bla
+author: Асель
+image: img/photo-man-book.jpg
 tags:
-  - "new"
-  - "discount"
----
+- new
+- discount
 
+---
 <p>
     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
     sit aspernatur aut odit aut fugit
