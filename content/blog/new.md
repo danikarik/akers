@@ -1,9 +1,9 @@
 ---
-title: 'Стоматологическая мебель '
+title: Стоматологическая мебель
 date: 2019-10-18T10:12:37+00:00
-description: 'Made in Kazakhstan '
+description: Made in Kazakhstan
 author: Асель
-image: img/photo-man-book.jpg
+image: uploads/stom-thumbnail.jpg
 tags:
 - new
 - discount

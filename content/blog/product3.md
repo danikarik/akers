@@ -1,9 +1,9 @@
 ---
-title: 'Осветители '
+title: Осветители
 date: 2019-10-16T18:14:00+00:00
 description: С линзами и/или бинокулярными лупами
 author: Асель
-image: img/photo-man-book.jpg
+image: uploads/lump-thumbnail.jpg
 tags:
 - new
 - discount
