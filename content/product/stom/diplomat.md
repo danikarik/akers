@@ -1,6 +1,6 @@
 ---
 title: Дипломат (Словакия)
-date: 2018-05-24T10:12:37.000+00:00
+date: 2018-05-24T10:12:37+00:00
 description: Дипломат (Словакия)
 image: img/photo-man-book.jpg
 
@@ -9,7 +9,7 @@ image: img/photo-man-book.jpg
 
 #### DA370 / DA380 DIPLOMAT ADEPT
 
-![](/uploads/Diplomat-Adept-DA370-1280x720.jpg)
+![](/uploads/Diplomat-Adept-DA370-1280x720-1.jpg)
 
 **Максимум комфорта, выдающаяся эргономика и технические характеристики**
 
