@@ -37,7 +37,7 @@ image: img/photo-man-book.jpg
 
 #### DC350 / DL320 DIPLOMAT LUX
 
-![](/uploads/Diplomat-Consul-DC350-1280x720.jpg)
+![](/uploads/Diplomat-Consul-DC350-1280x720-1.jpg)
 
 **Адаптируйте установки под свои требования**
 
