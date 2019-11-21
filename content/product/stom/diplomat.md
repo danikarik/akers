@@ -81,7 +81,7 @@ image: img/photo-man-book.jpg
 
 #### DA270 / DA280 DIPLOMAT ADEPT
 
-![](/uploads/Diplomat-Adept-DA270-1280x720.jpg)
+![](/uploads/Diplomat-Adept-DA270-1280x720-1.jpg)
 
 **Стань ближе к своим пациентам**
 
@@ -119,7 +119,7 @@ image: img/photo-man-book.jpg
 
 #### DС310 / DL210 DIPLOMAT CONSUL / DIPLOMAT LUX
 
-![](/uploads/Diplomat-DC310-1280x720.jpg)
+![](/uploads/7884_diplomat-consul-dc-310-diplomat.png)
 
 **Идеальное решение для ваших нужд по идеальной цене**
 
@@ -159,7 +159,7 @@ image: img/photo-man-book.jpg
 
 #### DC170 / DC180 DIPLOMAT CONSUL
 
-![](/uploads/Diplomat-Consul-DC170-1280x720-1.jpg)
+![](/uploads/Diplomat-Consul-DC170-1280x720-1-1.jpg)
 
 **Функциональность и комфорт**
 
@@ -197,7 +197,7 @@ image: img/photo-man-book.jpg
 
 #### DA170 / DA130 DIPLOMAT ADEPT
 
-![](/uploads/DA-170-1280x720-1.jpg)
+![](/uploads/DA-170-1280x720-1-1.jpg)
 
 **Стационарные установки нового поколения**
 
@@ -239,6 +239,6 @@ image: img/photo-man-book.jpg
 
 #### DA110A DIPLOMAT ADEPT
 
-![](/uploads/Diplomat-Adept-DA110-1280x720.jpg)
+![](/uploads/Diplomat-Adept-DA110-19.jpg)
 
 Стоматологическая установка Diplomat Adept DA110A выполнена в стационарном варианте, на врачебном блоке может быть установлено до 5 инструментов с нижней или верхней подачей. Модуль врача смонтирован на поворотном пантографическом плече. Стоматолог может удобно управлять всеми функциями с клавиатуры на панели управления или с помощью педали. Установка оборудована снимающейся стерилизуемой чашей плевательницы. По запросу может быть установлен негатоскоп. Таким образом, DA110A является исключительно надежной и функциональной установкой по разумной цене.
