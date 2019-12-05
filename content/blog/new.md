@@ -2,7 +2,7 @@
 title: Стоматологическая мебель
 date: 2019-10-18T10:12:37.000+00:00
 description: Made in Kazakhstan
-author: 'Аслан Машанло '
+author: 'Аслан '
 image: uploads/stom-thumbnail.jpg
 tags:
 - new
