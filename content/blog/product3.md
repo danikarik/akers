@@ -1,8 +1,8 @@
 ---
 title: Осветители
-date: 2019-10-16T18:14:00+00:00
+date: 2019-10-16T18:14:00.000+00:00
 description: С линзами и/или бинокулярными лупами
-author: Асель
+author: 'Аслан '
 image: uploads/lump-thumbnail.jpg
 tags:
 - new
